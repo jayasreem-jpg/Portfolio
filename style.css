@@ -726,3 +726,26 @@ CERTIFICATIONS
     border-radius:20px;
     font-weight:700;
 }
+/* ============================
+   PROJECT BUTTONS
+============================ */
+
+.project-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-top:20px;
+}
+
+.project-buttons .project-btn{
+    display:inline-block;
+    padding:12px 22px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s ease;
+}
+
+.project-buttons .project-btn:hover{
+    transform:translateY(-2px);
+}
