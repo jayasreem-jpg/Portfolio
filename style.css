@@ -749,3 +749,132 @@ CERTIFICATIONS
 .project-buttons .project-btn:hover{
     transform:translateY(-2px);
 }
+/*============================
+INTERNSHIP EXPERIENCE
+=============================*/
+
+.experience-card{
+    max-width:900px;
+    margin:50px auto;
+    background:#ffffff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    border-left:6px solid #2563EB;
+}
+
+.experience-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+.experience-header h3{
+    color:#2563EB;
+    margin-bottom:8px;
+    font-size:24px;
+}
+
+.company{
+    color:#64748B;
+    font-weight:600;
+    margin:0;
+}
+
+.experience-date{
+    color:#64748B;
+    font-weight:600;
+    white-space:nowrap;
+}
+
+.experience-description{
+    color:#475569;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.experience-skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.experience-skills span{
+    background:#EFF6FF;
+    color:#2563EB;
+    padding:7px 14px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:600;
+}
+
+.document-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.document-buttons a{
+    display:inline-block;
+    padding:12px 22px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.document-buttons .btn-primary{
+    background:#2563EB;
+    color:#ffffff;
+}
+
+.document-buttons .btn-primary:hover{
+    background:#1D4ED8;
+    transform:translateY(-2px);
+}
+
+.document-buttons .btn-secondary{
+    background:#EFF6FF;
+    color:#2563EB;
+    border:1px solid #2563EB;
+}
+
+.document-buttons .btn-secondary:hover{
+    background:#2563EB;
+    color:#ffffff;
+    transform:translateY(-2px);
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .experience-card{
+        margin:30px 15px;
+        padding:25px;
+    }
+
+    .experience-header{
+        flex-direction:column;
+        gap:8px;
+    }
+
+    .experience-header h3{
+        font-size:21px;
+    }
+
+    .experience-date{
+        white-space:normal;
+    }
+
+    .document-buttons{
+        flex-direction:column;
+    }
+
+    .document-buttons a{
+        text-align:center;
+        width:100%;
+    }
+}
